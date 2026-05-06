@@ -1,5 +1,9 @@
 # noisereduce
 
+[![CI](https://github.com/cemremengu/noisereduce/actions/workflows/ci.yml/badge.svg)](https://github.com/cemremengu/noisereduce/actions/workflows/ci.yml)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/cemremengu/noisereduce)](https://pkg.go.dev/github.com/cemremengu/noisereduce)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cemremengu/noisereduce)](https://goreportcard.com/report/github.com/cemremengu/noisereduce)
+
 Pure-Go spectral-gating noise reduction for audio-rate signals. This project is a Go port of the Python [`noisereduce` library](https://pypi.org/project/noisereduce/3.0.3/). The package supports stationary and non-stationary noise reduction, includes a small WAV reader/writer, and ships a CLI for processing WAV files. Please refer to the original Python project for more details on the underlying algorithms and their parameters.
 
 ## Features
